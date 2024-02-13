@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contenedor {
+	height: 1020px;
+	width: 960px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.cabecera {
+	height: 70px;
+	width: 960px;
+	float: left;
+	text-align: center;
+}
+.menu-lateral {
+	height: 930px;
+	width: 150px;
+	float: left;
+	margin-top: 10px;
+}
+.modificacion-usuario {
+	width: 600px;
+	float: left;
+	margin-top: 20px;
+}
+.stock {
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	height: 19px;
+	padding-top: 10px;
+	margin-top: 10px;
+	width: 190px;
+	font-size: 15px;
+	color: #FF6633;
+	font-weight: bolder;
+}
+
+.proceder-compra {
+	color: #F33;
+	text-decoration: none;
+}
+
+
+.boton-menu-lateral {
+	float: left;
+	height: 22px;
+	width: 150px;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 800;
+	color: #FFF;
+	display: inline;
+	background-image: url(boton-menu-lateral1.png);
+	font-style: oblique;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.brillo:hover {
+	background-image: url(boton-menu-lateral2.png);
+	color: #FFF;
+	text-decoration: none;
+}
+.salir_sesion {
+	color: #F33;
+	font-size: 9px;
+	text-decoration: none;
+}
+
+
+
+.contenido {
+	float: left;
+	width: 620px;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-align: left;
+}
+.slider {
+	float: left;
+	height: 400px;
+	width: 620px;
+	border-radios: 5px;
+	
+}
+
+.logo {
+	height: 70px;
+	width: 260px;
+	float: left;
+	margin-right: 10px;
+}
+.nombre_producto_detalle {
+	float: left;
+	height: 50px;
+	width: 276px;
+	margin-left: 10px;
+	text-align: center;
+	font-weight: bold;
+	color: #AF1619;
+}
+.descripcion_producto_detalle {
+	float: left;
+	width: 276px;
+	margin-left: 10px;
+	margin-top: 50px;
+	text-align: justify;
+	color: #000;
+}
+
+
+.menu-derecha {
+	float: left;
+	width: 170px;
+	margin-top: 10px;
+}
+.producto {
+	float: left;
+	height: 330px;
+	width: 200px;
+	margin-top: 5px;
+	background-image: url(lineas.png);
+}
+.menu-centro {
+	float: left;
+	height: 30px;
+	width: 620px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.nombre-categoria {
+	float: left;
+	height: 70px;
+	width: 620px;
+	margin-top: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+.login {
+	background-color: #333;
+	width: 170px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	border-radius: 5px;
+	padding-left: 5px;
+	
+}
+
+.imagen-cabecera {
+	height: 70px;
+	width: 380px;
+	margin-left: 15px;
+	float: left;
+	margin-right: 18px;
+}
+.horarios {
+	float: left;
+	height: 70px;
+	width: 260px;
+	margin-left: 15px;
+}
+
+.categoria {
+	background-color: #FFF17F;
+	float: left;
+	height: 25px;
+	width: 150px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 8px;
+	padding-top: 5px;
+}
+.boton-comprar {
+	margin-top: 3px;
+}
+
+.marco-producto {
+	float: left;
+	height: 160px;
+	width: 195px;
+	margin-top: 5px;
+	background-image: url(marco%20foto.png);
+	margin-left: 5px;
+}
+.foto-producto {
+	height: 125px;
+	width: 130px;
+	margin-top: 18px;
+	margin-left: 30px;
+}
+
+.descripcion-producto {
+	float: left;
+	width: 190px;
+	margin-top: 5px;
+	height: 34px;
+	margin-right: 5px;
+	margin-left: 3px;
+	text-align: center;
+	font-size: 14px;
+}
+#nohayproductos {
+	text-align: center;
+}
+
+.precio-producto {
+	float: left;
+	margin-top: 0px;
+	width: 190px;
+	height: 30px;
+	margin-bottom: 5px;
+	background-image: url(boton_precio.png);
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	padding-top: 8px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.precio_producto_detalle {
+	height: 33px;
+	width: 190px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(boton_precio.png);
+	padding-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+
+.comprar-producto {
+	width: 100px;
+	margin-top: 10px;
+	height: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	
+	
+	
+}
+.titulo-login {
+	height: 20px;
+	width: 165px;
+	background-color: #666;
+	text-align: center;
+	padding-top: 3px;
+	border-radius: 5px;
+}
+
+.foto_producto_detalle {
+	float: left;
+	height: 338px;
+	width: 334px;
+	background-image: url(borde-foto-producto.png);
+	text-align: center;
+	padding-top: 20px;
+}
+.titulo-darme-alta {
+	width: 170px;
+	height: 20px;
+	background-color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	color: #C00;
+	text-align: center;
+	margin-top: 10px;
+	border-radius:5px;
+}
+.alta-usuario {
+	color: #000;
+	background-color: #CCFF99;
+	width: 600px;
+	border-radius: 10px;
+	text-align: center;
+}
+.login_ok {
+	background-color: #333;
+	width: 170px;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFC;
+	padding-left: 3px;
+	border-radius: 5px;
+	text-align: center;
+}
+.ofertas {
+	background-color: #09F;
+	width: 150px;
+	border-radius: 10px;
+	height: 250px;
+}
+.bienvenido {
+	float: left;
+	height: 70px;
+	width: 620px;
+}
+.login_ok a {
+	color: #FFFF80;
+}
+.necesitas-iniciar {
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+}
+.logo-bnb {
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+}
+.datos-cuenta-bnb {
+	margin-left: 5px;
+	text-align: justify;
+	float: left;
+}
+.consultar-compra {
+	text-align: left;
+}
+.sub-productos{
+	float: left;
+	clear: both;
+	height: auto;
+	width: auto;
+	
+	}
+.correoelectronico {
+	color: #09F;
+	text-decoration: underline;
+	font-size: 24px;
+}
+.productosbrillo:hover {
+	background-color: #C0C0C0;
+}
+.buscador {
+	float: left;
+	height: 60px;
+	width: 150px;
+}
