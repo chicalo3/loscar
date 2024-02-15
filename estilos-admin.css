@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contenedor-admin {
+	width: 1020px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.cabecera-admin {
+	float: left;
+	width: 1020px;
+}
+.texto-administracion {
+	height: 60px;
+	width: 700px;
+	text-align: center;
+	color: #000;
+	float: left;
+	margin-left: 50px;
+	background-color: #CCC;
+	border-radius:10px;
+}
+.texto-tabla {
+	height: 60px;
+	width: 700px;
+	text-align: center;
+	color: #FFF;
+	float: left;
+	margin-left: 50px;
+	background-color: #CCC;
+	border-radius:10px;
+}
+.contenedor-tabla {
+	width: 60px;
+	margin-right: auto;
+	margin-left: 50px;
+	float: right;
+}
+.logo-admin {
+	float: left;
+	width: 260px;
+	margin-bottom: 10px;
+	height: 60px;
+}
+
+
+.menu-lateral-admin {
+	float: left;
+	width: 150px;
+	background-color: #A6A6A6;
+	border-radius: 9px;
+	padding-left: 6px;
+}
+.contenido-admin {
+	float: left;
+	width: 840px;
+	margin-left: 5px;
+	text-align: center;
+}
+
+.productosbrillo:hover {
+	background-color: #FFF17F;
+}
+.icono-home {
+	float: left;
+}
+
+.confirmarpedido{
+	height: 28px;
+	width: 98px;
+	background-image: url(Confirmar2.png);
+	float: left;
+	margin-left: 40px;
+}
+.cancelarpedido {
+	background-image: url(cancelar2.png);
+	height: 26px;
+	width: 98px;
+	float: left;
+	margin-left: 90px;
+}.cancelarpedido:hover {
+	background-image: url(cancelar.png);
+	height: 26px;
+	width: 98px;
+}
+
+.confirmarpedido:hover{
+	height: 28px;
+	width: 98px;
+	background-image: url(Confirmar.png);
+}
